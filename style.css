@@ -1,0 +1,299 @@
+nav {
+  background-color: black;
+  top: 0px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav img {
+  width: 175px;
+  margin-left: 90px;
+}
+
+nav .link {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 290px;
+  position: relative;
+}
+
+nav .link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav .link a:hover{
+  color: orangered;
+}
+
+nav .link + .link {
+  margin-left: -150px; /* Adjust this value to change the gap between <a> tags */
+}
+
+nav .link ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 150PX;
+  height: 120px;
+  
+}
+
+nav .link:hover ul.dropdown {
+  display: block;
+  
+}
+
+nav .link ul.dropdown li {
+  display: block;
+  
+}
+
+nav .link ul.dropdown li a {
+  color:orangered;
+  text-decoration: none;
+ 
+  
+}
+nav .link ul.dropdown li a:hover {
+  color: black;
+}
+
+  .logos{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  .logos img{
+    width: 1050px;
+  }
+  .latestblog{
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .latestblog h1{
+    font-weight: bolder;
+  }
+
+.banner{
+  display: flex;
+}
+.bannertext{
+  position: absolute;
+  background-color: transparent;
+  background-color: rgba(68, 64, 64, 0.5); 
+  margin-left: 100px;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.bannertext h1{
+  color: white;
+  text-align: center;
+}
+.bannertext p{
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.bannertext .large-button {
+  background-color: rgb(255, 149, 0) !important;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px 32px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 300px;
+}
+.bannertext .large-button:hover{
+  background-color: rgb(34, 34, 33) !important;
+  
+}
+
+
+
+
+  .image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .image-container p {
+    font-size: 23px;
+    font-weight: bold;
+    color: orangered;
+  }
+.image-container p:hover{
+  color: black;
+  
+}
+
+
+
+.imagefav-container {
+  margin: 10px;
+  text-align: center;
+}
+
+.imagefav-container img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.imagefav-container h2 {
+  margin-top: 50px;
+  font-size: 31px;
+  font-weight: bold;
+  color: orangered;
+}
+.imagefav-container h2:hover{
+color: black;
+}
+.imagefav-container p{
+  font-size: 20px;
+}
+  .subcribe-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .subcribe-row.container{
+    margin: 10px;
+  }
+  .subcribe-row img{
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 55px;
+    padding: 5px;
+  }
+ /* input{
+    width: 800px;
+    height: 20px;
+ } */
+ .hr{
+  border: 1.5px solid;
+  border-color: black;
+ }
+ .travel-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+.travel-row.container{
+  margin: 10px;
+}
+.travelvedio{
+  padding: 50px;
+}
+.travelvedio h1,h5{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.travel-row .container .btn{
+  color: orangered;
+  border: 2px solid orangered;
+}
+.travel-row .container .btn:hover{
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.hr-custom{
+  border-top: 3.5px solid rgb(3, 3, 3) ;
+  box-shadow: none;
+  border-style: solid ;
+  background-color: rgb(3, 3, 3);
+}
+.travel-row .container .sub{
+  color: orangered;
+  cursor: pointer;
+  
+}
+.recommended{
+  display: flex;
+}
+.recommended .container{
+margin-left: 10px;
+  
+  
+}
+.recommended .container:hover{
+  background-color: gray;
+  border-radius: 7px;
+}
+.recommended img{
+  width: 450px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.rec{
+  padding: 30px;
+}
+footer{
+  width: 100%;
+}
+.fixed{
+  margin-left: 1400px;
+ 
+}
+footer1{
+  position: sticky;
+  bottom: 30px;
+}
+footer {
+  background-color: #000000 !important; 
+ 
+}
+
+
+
+
+footer a{
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 5px;
+  
+  
+  
+}
+footer h5{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+footer label{
+  color: white;
+  cursor: pointer;
+}
+.fixed .fa-regular:hover{
+color: blue;
+}
